@@ -1,7 +1,3 @@
-수정된 내용을 반영한 요약은 다음과 같습니다:
-
-### 수정된 영어 요약:
-
 1. **High-level problem:**
    The paper addresses the problem of learning continuous vector representations (embeddings) of words efficiently from large datasets. These representations capture syntactic and semantic word similarities, improving natural language processing (NLP) tasks such as speech recognition, machine translation, and question answering.
 
@@ -17,8 +13,8 @@
 5. **Role of different components in the contribution:**
    - **CBOW model:** It improves efficiency by using a shared projection layer where word vectors are averaged. This simplification significantly reduces training time while providing good performance in syntactic tasks.
    - **Skip-gram model:** It predicts context words from a given word within a sentence. By adjusting the range of context words considered, the model can balance between accuracy and computational complexity. This model performs better on semantic tasks and is especially effective when trained on large datasets.
-
-### 수정된 한국어 요약:
+  
+---
 
 1. **해결하고자 하는 문제:**  
    이 논문은 대규모 데이터셋에서 단어의 연속적 벡터 표현(임베딩)을 효율적으로 학습하는 문제를 다룹니다. 이러한 벡터 표현은 단어 간의 구문적, 의미적 유사성을 포착하여 음성 인식, 기계 번역, 질의 응답 시스템과 같은 자연어 처리(NLP) 작업의 성능을 향상시킬 수 있습니다.
