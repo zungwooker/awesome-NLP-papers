@@ -40,8 +40,6 @@
 
 ---
 
-English Summary:
-
 1. High-Level Problem:
 
 The paper titled “Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation” presents a novel model for machine translation. The traditional phrase-based statistical machine translation (SMT) systems rely on predefined tables of phrase pairs and their translation probabilities. These systems struggle with handling variable-length sequences and often cannot generalize well to unseen data. The primary issue this paper tackles is how to effectively learn phrase representations that can handle variable-length sequences while improving translation quality.
@@ -88,8 +86,6 @@ This gated RNN mechanism is inspired by LSTM units but is simpler and more compu
 	•	Gated Hidden Units (Reset and Update Gates): These gates allow the network to control the flow of information, handling short-term and long-term dependencies efficiently.
 
 The method was evaluated on the WMT’14 English-French translation task, where it demonstrated better performance compared to standard phrase-based SMT systems and other neural models.
-
-Korean Summary:
 
 1. 해결하고자 하는 문제:
 
